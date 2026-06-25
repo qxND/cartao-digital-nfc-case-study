@@ -1,74 +1,121 @@
 # Cartão Digital NFC — Case Study
 
-> Estudo de caso de uma aplicação web para cartão digital dinâmico, desenvolvida em contexto profissional.
-> O código-fonte original não está disponível publicamente por questões de confidencialidade e propriedade intelectual.
+> 📌 Estudo de caso de uma aplicação web para cartão digital dinâmico, desenvolvida em contexto profissional.
+> 🔒 O código-fonte original não está disponível publicamente por questões de confidencialidade e propriedade intelectual.
 
 <p align="center">
-  <img src="./assets/demo.gif" alt="Demonstração do Cartão Digital NFC" width="800" />
+  <img src="./assets/cover-preview.png" alt="Preview do Cartão Digital NFC" width="900" />
 </p>
 
-## Visão Geral
+<p align="center">
+  <img src="https://img.shields.io/badge/status-case%20study-00c7b7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/contexto-profissional-4f46e5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/source-private-111827?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,flask,postgres,html,css,js" />
+</p>
+
+---
+
+## ✨ Visão Geral
 
 O **Cartão Digital NFC** é uma aplicação web criada para apresentar perfis digitais de forma dinâmica, responsiva e visualmente personalizada.
 
-A proposta era permitir que um cartão físico com NFC direcionasse o usuário para uma página online com informações de contato, bio, links sociais e identidade visual customizada.
+A proposta do projeto foi conectar um cartão físico com NFC a uma página online com informações de contato, bio, links sociais e identidade visual customizada.
 
-Nesta versão de apresentação, o perfil demonstrativo utiliza o personagem **Pixel**, um gato fictício com estética tech, criado apenas para fins de portfólio e demonstração visual.
+Para esta apresentação de portfólio, a demonstração utiliza o personagem **Pixel**, um perfil fictício criado para valorizar a interface e mostrar a experiência da aplicação de forma mais visual e memorável.
 
-## Objetivo do Projeto
+---
 
-Criar uma experiência simples, rápida e acessível para substituir ou complementar cartões de visita tradicionais, conectando o mundo físico ao digital por meio de NFC e web.
+## 🎬 Demonstração
 
-## Funcionalidades
+Abaixo, uma demonstração rápida da interface em funcionamento:
 
-* Página dinâmica por usuário
-* Perfil com nome, cargo, empresa, bio e avatar
+<p align="center">
+  <img src="./assets/demo.gif" alt="Demonstração do Cartão Digital NFC" width="700" />
+</p>
+
+---
+
+## 🚀 Destaques do Projeto
+
+* Perfil digital carregado dinamicamente por identificador na URL
+* Interface visual personalizada
 * Links sociais interativos
-* Interface responsiva
-* Alternância visual de tema/cor
-* Dados carregados a partir de banco PostgreSQL
-* Estrutura preparada para múltiplos perfis digitais
+* Estrutura pensada para múltiplos perfis
+* Integração com banco de dados PostgreSQL
+* Troca visual de tema/cor pela interface
+* Aplicação web leve, objetiva e com foco em apresentação
 
-## Stack Utilizada
+---
 
-* Python
-* Flask
-* PostgreSQL
-* HTML
-* CSS
-* JavaScript
-* Jinja Templates
-* Linux / Deploy web
+## 🧰 Stack Utilizada
 
-## Minha Participação
+* **Python**
+* **Flask**
+* **PostgreSQL**
+* **HTML**
+* **CSS**
+* **JavaScript**
+* **Jinja Templates**
+* **Linux / Deploy Web**
+
+---
+
+## 👨‍💻 Minha Participação
 
 Atuei no desenvolvimento da aplicação web, estruturação das rotas, integração com banco de dados, renderização dinâmica dos perfis e organização da interface.
 
-Também participei da configuração do ambiente de execução e validação do fluxo entre cartão NFC, página web e dados do perfil.
+Também participei da configuração do ambiente de execução e da validação do fluxo entre cartão NFC, página web e dados do perfil.
 
-## Decisões Técnicas
+---
 
-A aplicação foi estruturada com Flask para manter o backend simples, direto e fácil de publicar em ambiente web.
+## 🧠 Decisões Técnicas
 
-Os dados dos usuários foram armazenados em PostgreSQL, permitindo que diferentes perfis fossem carregados dinamicamente a partir de um identificador na URL.
+A aplicação foi estruturada com **Flask** para manter o backend simples, direto e fácil de publicar em ambiente web.
 
-A interface foi construída com foco em impacto visual, responsividade e acesso rápido aos links principais.
+Os dados dos usuários foram armazenados em **PostgreSQL**, permitindo que diferentes perfis fossem carregados dinamicamente a partir de um identificador na URL.
 
-## Demonstração
+A interface foi construída com foco em **impacto visual, responsividade e acesso rápido aos links principais**, valorizando a experiência de uso.
 
-A demo abaixo mostra a aplicação em funcionamento, incluindo a troca de tema visual pela interface.
+---
 
-[Ver vídeo da demonstração](./assets/demo.mp4)
+## 🖼️ Galeria
 
-## Aprendizados
+### Tema principal
 
-Este projeto reforçou minha experiência com desenvolvimento backend, aplicações web dinâmicas, integração com banco de dados, organização de assets estáticos e construção de interfaces voltadas para uso real.
+<p align="center">
+  <img src="./assets/screenshot-tema-azul.png" alt="Interface principal do cartão digital" width="900" />
+</p>
 
-Também foi um exercício importante de produto: transformar uma necessidade simples, compartilhar contato profissional, em uma experiência digital mais visual, memorável e personalizável.
+### Variação visual / troca de tema
 
-## Nota de Confidencialidade
+<p align="center">
+  <img src="./assets/screenshot-tema-verde.png" alt="Variação visual do cartão digital" width="900" />
+</p>
 
-Este repositório apresenta apenas um estudo de caso sanitizado.
-O código-fonte original não é público porque foi desenvolvido em contexto profissional e pode conter detalhes de implementação, marca ou informações pertencentes à empresa.
+---
+
+## 📚 Aprendizados
+
+Este projeto reforçou minha experiência com:
+
+* desenvolvimento backend com Flask
+* aplicações web dinâmicas
+* integração com banco de dados PostgreSQL
+* organização de assets e renderização de conteúdo dinâmico
+* construção de interfaces voltadas para uso real
+
+Também foi um exercício importante de produto, transformando uma necessidade simples de apresentação de contato em uma experiência digital mais visual, personalizável e memorável.
+
+---
+
+## 🔒 Nota de Confidencialidade
+
+Este repositório apresenta apenas um **estudo de caso sanitizado**.
+
+O código-fonte original não está disponível publicamente porque foi desenvolvido em contexto profissional e pode conter detalhes de implementação, marca ou informações pertencentes à empresa.
 
 Nenhum dado sensível, credencial, informação interna ou código proprietário está incluído neste repositório.
